@@ -1,0 +1,78 @@
+.icon {
+
+  display: inline-block;
+  margin: auto;
+  align-items: center
+}
+form{
+  width: 50%;
+  margin: auto;
+  align-items: center
+  
+}
+.bird{
+  width: 100px;
+  position: absolute;
+}
+.contain{
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid black;
+  display: inline-block;
+}
+.aeroplane{
+  position: absolute;
+  top: 200px;
+}
+.gameend{
+  display: none;
+}
+.goli{
+  position: absolute;
+  top:0;
+  width: 30px;
+}
+.instruction{
+  padding-top: 50px;
+  margin-top: 50px;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  height: 70vh;
+}
+.gameover{
+  padding-top: 50px;
+ 
+  align-items: center;
+
+  margin: auto;
+  
+}
+.instruction button{
+  
+  background-color: antiquewhite;
+  
+}
+.button{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: blue
+}
+.button2{
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  z-index: 100px;
+  background-color: blue
+}
+.scoreCard{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100px;
+  /* background-color: blue   */
+  color: white
+
+}
